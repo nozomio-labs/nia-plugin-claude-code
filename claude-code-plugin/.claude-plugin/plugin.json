@@ -1,0 +1,33 @@
+{
+  "name": "nia",
+  "version": "1.0.0",
+  "description": "Nia - the up-to-date knowledge API for AI agents. Index repos, search codebases, perform AI research, and share context across agents.",
+  "author": {
+    "name": "Nozomio Labs",
+    "email": "founders@nozomio.com",
+    "url": "https://trynia.ai"
+  },
+  "license": "AGPL-3.0",
+  "homepage": "https://trynia.ai",
+  "repository": "https://github.com/nozomio-labs/nia-claude-code-plugin",
+  "keywords": ["nia", "knowledge", "search", "indexing", "research", "mcp"],
+
+  "mcpServers": {
+    "nia": {
+      "type": "http",
+      "url": "https://apigcp.trynia.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:NIA_API_KEY}"
+      }
+    }
+  },
+
+  "skills": [
+    {"name": "nia-index", "path": "../skills/nia-index.md"},
+    {"name": "nia-search", "path": "../skills/nia-search.md"},
+    {"name": "nia-explore", "path": "../skills/nia-explore.md"},
+    {"name": "nia-research", "path": "../skills/nia-research.md"},
+    {"name": "nia-packages", "path": "../skills/nia-packages.md"},
+    {"name": "nia-context", "path": "../skills/nia-context.md"}
+  ]
+}

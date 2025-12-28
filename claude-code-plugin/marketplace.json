@@ -1,0 +1,39 @@
+{
+  "name": "Nia Marketplace",
+  "description": "Official plugins from Nozomio Labs - the up-to-date knowledge API for AI agents",
+  "url": "https://trynia.ai",
+  "plugins": [
+    {
+      "name": "nia",
+      "displayName": "Nia",
+      "description": "Index repositories and documentation, search codebases, perform AI research, and share context across agents",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nozomio Labs",
+        "url": "https://trynia.ai"
+      },
+      "license": "AGPL-3.0",
+      "homepage": "https://trynia.ai",
+      "repository": "https://github.com/nozomio-labs/nia-claude-code-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nozomio-labs/nia-claude-code-plugin.git",
+        "ref": "main"
+      },
+      "tags": ["knowledge", "search", "indexing", "research", "mcp", "context"],
+      "features": [
+        "Index GitHub repositories and documentation",
+        "Semantic search across codebases",
+        "AI-powered deep research",
+        "Cross-agent context sharing",
+        "Package source code search (npm, PyPI, Crates.io)"
+      ],
+      "requirements": {
+        "claudeCode": ">=1.0.0",
+        "environment": {
+          "NIA_API_KEY": "Required - Get at https://app.trynia.ai/api-keys"
+        }
+      }
+    }
+  ]
+}
