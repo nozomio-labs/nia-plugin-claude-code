@@ -1,6 +1,9 @@
 {
   "name": "nia-marketplace",
-  "owner": "nozomio-labs",
+  "owner": {
+    "name": "Nozomio Labs",
+    "url": "https://trynia.ai"
+  },
   "description": "Official plugins from Nozomio Labs",
   "url": "https://trynia.ai",
   "plugins": [
@@ -15,8 +18,7 @@
       "license": "AGPL-3.0",
       "homepage": "https://trynia.ai",
       "repository": "https://github.com/nozomio-labs/nia-plugin-claude-code",
-      "source": "https://github.com/nozomio-labs/nia-plugin-claude-code",
-      "tags": ["knowledge", "search", "indexing", "research", "mcp", "context"]
+      "source": "./"
     }
   ]
 }
