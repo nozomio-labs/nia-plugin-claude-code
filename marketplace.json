@@ -10,15 +10,10 @@
     {
       "name": "nia",
       "description": "Index repositories, search codebases, perform AI research, and share context across agents",
-      "version": "1.0.0",
-      "author": {
-        "name": "Nozomio Labs",
-        "url": "https://trynia.ai"
-      },
-      "license": "AGPL-3.0",
-      "homepage": "https://trynia.ai",
-      "repository": "https://github.com/nozomio-labs/nia-plugin-claude-code",
-      "source": "./"
+      "source": {
+        "source": "github",
+        "repo": "nozomio-labs/nia-plugin-claude-code"
+      }
     }
   ]
 }
