@@ -23,11 +23,11 @@
   },
 
   "skills": [
-    "../skills/nia-index.md",
-    "../skills/nia-search.md",
-    "../skills/nia-explore.md",
-    "../skills/nia-research.md",
-    "../skills/nia-packages.md",
-    "../skills/nia-context.md"
+    "./skills/nia-index.md",
+    "./skills/nia-search.md",
+    "./skills/nia-explore.md",
+    "./skills/nia-research.md",
+    "./skills/nia-packages.md",
+    "./skills/nia-context.md"
   ]
 }
