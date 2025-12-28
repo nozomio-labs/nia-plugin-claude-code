@@ -1,4 +1,4 @@
-# Nia - Claude Code Plugin
+# Nia - Claude Code Plugin :D
 
 Connect Claude Code to [Nia](https://trynia.ai) - the up-to-date knowledge API for AI agents. Index repositories, search codebases, and share context across agents.
 
