@@ -23,11 +23,11 @@
   },
 
   "skills": [
-    {"name": "nia-index", "path": "../skills/nia-index.md"},
-    {"name": "nia-search", "path": "../skills/nia-search.md"},
-    {"name": "nia-explore", "path": "../skills/nia-explore.md"},
-    {"name": "nia-research", "path": "../skills/nia-research.md"},
-    {"name": "nia-packages", "path": "../skills/nia-packages.md"},
-    {"name": "nia-context", "path": "../skills/nia-context.md"}
+    "../skills/nia-index.md",
+    "../skills/nia-search.md",
+    "../skills/nia-explore.md",
+    "../skills/nia-research.md",
+    "../skills/nia-packages.md",
+    "../skills/nia-context.md"
   ]
 }
