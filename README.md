@@ -37,20 +37,14 @@ NIA_API_KEY=nk_xxxxxxxxxxxxxxxx claude
 
 ### Step 3: Install Plugin
 
-**Option 1: Install from Git (Recommended)**
+**Option 1: From GitHub (Recommended)**
 
 ```bash
-claude plugin install https://github.com/nozomio-labs/nia-plugin-claude-code
-```
-
-**Option 2: Install from Marketplace**
-
-```bash
-claude plugin marketplace add https://raw.githubusercontent.com/nozomio-labs/nia-plugin-claude-code/main/marketplace.json
+claude plugin marketplace add nozomio-labs/nia-plugin-claude-code
 claude plugin install nia
 ```
 
-**Option 3: Local Development**
+**Option 2: Local Development**
 
 ```bash
 git clone https://github.com/nozomio-labs/nia-plugin-claude-code
