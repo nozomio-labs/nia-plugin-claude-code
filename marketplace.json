@@ -10,10 +10,7 @@
     {
       "name": "nia",
       "description": "Index repositories, search codebases, perform AI research, and share context across agents",
-      "source": {
-        "source": "github",
-        "repo": "nozomio-labs/nia-plugin-claude-code"
-      }
+      "source": "https://github.com/nozomio-labs/nia-plugin-claude-code.git"
     }
   ]
 }
