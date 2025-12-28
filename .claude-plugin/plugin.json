@@ -9,7 +9,7 @@
   },
   "license": "AGPL-3.0",
   "homepage": "https://trynia.ai",
-  "repository": "https://github.com/nozomio-labs/nia-claude-code-plugin",
+  "repository": "https://github.com/nozomio-labs/nia-plugin-claude-code",
   "keywords": ["nia", "knowledge", "search", "indexing", "research", "mcp"],
 
   "mcpServers": {

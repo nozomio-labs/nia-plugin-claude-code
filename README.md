@@ -40,21 +40,21 @@ NIA_API_KEY=nk_xxxxxxxxxxxxxxxx claude
 **Option 1: Install from Git (Recommended)**
 
 ```bash
-claude plugin install https://github.com/nozomio-labs/nia-claude-code-plugin
+claude plugin install https://github.com/nozomio-labs/nia-plugin-claude-code
 ```
 
 **Option 2: Install from Marketplace**
 
 ```bash
-claude plugin marketplace add https://raw.githubusercontent.com/nozomio-labs/nia-claude-code-plugin/main/marketplace.json
+claude plugin marketplace add https://raw.githubusercontent.com/nozomio-labs/nia-plugin-claude-code/main/marketplace.json
 claude plugin install nia
 ```
 
 **Option 3: Local Development**
 
 ```bash
-git clone https://github.com/nozomio-labs/nia-claude-code-plugin
-claude --plugin-dir ./nia-claude-code-plugin
+git clone https://github.com/nozomio-labs/nia-plugin-claude-code
+claude --plugin-dir ./nia-plugin-claude-code
 ```
 
 ### Verify Installation
@@ -121,7 +121,7 @@ context(action="save", title="...", summary="...", content="...", agent_source="
 
 ## Support
 
-- [GitHub Issues](https://github.com/nozomio-labs/nia-claude-code-plugin/issues)
+- [GitHub Issues](https://github.com/nozomio-labs/nia-plugin-claude-code/issues)
 - [Documentation](https://docs.trynia.ai)
 
 ## License
