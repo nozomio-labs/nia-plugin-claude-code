@@ -1,0 +1,9 @@
+{
+"nia": {
+      "type": "http",
+      "url": "https://apigcp.trynia.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NIA_API_KEY}"
+      }
+    }
+}

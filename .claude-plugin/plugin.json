@@ -12,16 +12,6 @@
   "repository": "https://github.com/nozomio-labs/nia-plugin-claude-code",
   "keywords": ["nia", "knowledge", "search", "indexing", "research", "mcp"],
 
-  "mcpServers": {
-    "nia": {
-      "type": "http",
-      "url": "https://apigcp.trynia.ai/mcp",
-      "headers": {
-        "Authorization": "Bearer ${env:NIA_API_KEY}"
-      }
-    }
-  },
-
   "skills": [
     "./skills/nia-index.md",
     "./skills/nia-search.md",
